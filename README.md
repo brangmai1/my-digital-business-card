@@ -4,4 +4,4 @@
 
 "My Digital Business Card" is a fun project built with ReactJS, HTML and CSS.
 
-![My_Image](./src/images/myDigitalBusinessCard.png)
+![My_Image](./src/images/myCard.png)
