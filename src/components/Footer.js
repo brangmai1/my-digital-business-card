@@ -7,7 +7,7 @@ import GithubLogo from "../images/github.jpeg"
 export default function Footer() {
     return (
         <div className="footer">
-            <img src={TwitterLogo} alt="Twitter logo"></img>
+            <img src={TwitterLogo} alt="Twitter logo"></img>                     
             <img src={FacebookLogo} alt="Facebook logo"></img>
             <img src={InstagramLogo} alt="Instagram logo"></img>
             <img src={GithubLogo} alt="Github logo"></img>

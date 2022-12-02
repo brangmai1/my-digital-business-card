@@ -11,7 +11,7 @@ code {
 #root {
   width: 200px;
   height: 700px;
-  background-color: rgb(11, 11, 11);
+  background-color: rgb(20, 20, 20);
   margin: 50px auto;
   border-style: none;
   border-radius: 8px;
@@ -22,19 +22,26 @@ code {
   line-height: 8px;
   text-align: center;
 }
+.header--profile_image {
+  width: 100%;
+  /* width: 200px;
+  height: 200px;
+  object-fit: cover;  */
+}
 .header h2 {
   color: white;
 }
-.header p {
-  font-size: 14px;
+.header--job_title {
+  color: bisque;
+  margin-bottom: 8px;
+}
+.header--website {
+  font-size: 12px;
+  font-style: italic;
 }
 .header a {
   text-decoration: none;
   color: rgb(156, 156, 156);
-}
-.header--profile_image {
-  width: 100%;
-  /* object-fit: contain;  */
 }
 .buttons {
   margin: 10px 10px;
@@ -47,21 +54,37 @@ code {
   height: 25px;
   border-style: none;
   border-radius: 4px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+.buttons button:hover {
+  opacity: 0.7;
 }
 .linkedin-button {
   background-color: rgb(16, 100, 178);
+}
+.linkedin-button a {
   color: white;
 }
 .main {
-  padding: 0 10px;
+  /* padding: 10px 10px; */
+}
+.section {
+  margin: 14px 10px;
+}
+.section h3, p {
+  margin: 0;
+  padding: 0;
 }
 .section h3 {
   color: white;
+  margin-bottom: 6px;
 }
 .footer {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: black;
 }
 .footer img {
   width: 20px;
