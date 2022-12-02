@@ -2,7 +2,7 @@ import React from 'react'
 import TwitterLogo from "../images/twitter.webp"
 import FacebookLogo from "../images/facebook.png"
 import InstagramLogo from "../images/instagram.png"
-import GithubLogo from "../images/github.png"
+import GithubLogo from "../images/github.jpeg"
 
 export default function Footer() {
     return (

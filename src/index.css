@@ -19,7 +19,7 @@ code {
   font-size: 12px;
 }
 .header {
-  line-height: 10px;
+  line-height: 8px;
   text-align: center;
 }
 .header h2 {
@@ -30,7 +30,7 @@ code {
 }
 .header a {
   text-decoration: none;
-  color: white;
+  color: rgb(156, 156, 156);
 }
 .header--profile_image {
   width: 100%;
@@ -44,7 +44,13 @@ code {
 }
 .buttons button {
   width: 80px;
-  height: 30px;
+  height: 25px;
+  border-style: none;
+  border-radius: 4px;
+}
+.linkedin-button {
+  background-color: rgb(16, 100, 178);
+  color: white;
 }
 .main {
   padding: 0 10px;
@@ -61,4 +67,5 @@ code {
   width: 20px;
   height: 20px;
   object-fit: cover;
+  padding: 10px 10px;
 }

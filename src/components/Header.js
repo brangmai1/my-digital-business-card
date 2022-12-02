@@ -10,7 +10,7 @@ export default function Header() {
             <a href="brangmai.com" target="_blank">brangmai.com</a>
             <div className="buttons">
                 <button>Email</button>
-                <button>LinkedIn</button>
+                <button className="linkedin-button">LinkedIn</button>
             </div>            
         </div>
     )
